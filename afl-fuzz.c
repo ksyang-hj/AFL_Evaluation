@@ -2824,7 +2824,7 @@ static void perform_dry_run(char** argv) {
         }
 
       case FAULT_CRASH:  
-
+				break;
         if (crash_mode) break;
 
         if (skip_crashes) {
